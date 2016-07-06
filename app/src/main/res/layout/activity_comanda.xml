@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+    <TextView
+        android:id="@+id/comandatext"
+        android:textColor="@color/textDark"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/textcomanda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="15dp"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:id="@+id/comandatext2"
+        android:textColor="@color/textDark"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/textcomanda2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/comandatext3"
+        android:textColor="@color/textMedium"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/textcomanda3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btncomanda"
+        android:background="@drawable/phoneicon"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="65dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

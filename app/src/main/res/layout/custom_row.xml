@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/cake_image"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/tortaniversar"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/cake_title"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_toRightOf="@+id/cake_image"
+        android:text="This is cake recipe title"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/textDark"
+        />
+
+
+
+
+
+</LinearLayout>

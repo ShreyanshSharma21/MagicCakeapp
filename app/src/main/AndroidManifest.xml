@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication.magiccakeapp">
+
+    <!-- here i add the permision for call making -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_magiccake"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Here i start connecting the activities from the left side -->
+        <!-- ################  here i add the code for  Activity RETETE  ################### -->
+
+        <activity android:name=".ReteteActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccakeapp.ReteteActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- ################  here i add the code for  Activity RETETE  ################### -->
+
+        <activity android:name=".SocialActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccakeapp.SocialActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- $%^$^$%^$^$^$^$ here i START TO add the codes for cake (Amandine and Rulouri) activities  ^&*@^^$!@*^#!# -->
+
+        <activity android:name=".AmandineActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccakeapp.AmandineActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RulouriActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccake.RulouriActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AlbacazapadaActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccake.AlbacazapadaActivity"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TortdelamaiecubezeaActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccake.TortdelamaieucbezeaActivity"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".TortdelamaiecucremamascarponeActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccake.TortdelamaiecucremamascarponeActivity"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PogacelecujumariActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccake.PogacelecujumariActivity"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <!-- $%^$^$%^$^$^$^$ here i FINISH adding the codes for cake activities from RETETE activity  ^&*@^^$!@*^#!# -->
+
+
+        <!-- here i start working on the right side of my app Social Activity -->
+        <!-- creating the activity for BMI calculator - BmiActivity -->
+
+        <activity android:name=".BmiActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccakeapp.BmiActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- here i add the activity with Facts -->
+
+        <activity android:name=".FactsActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccakeapp.FactsActivity"></action>
+
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+
+        <!-- here i add the activity for Comanda-->
+
+        <activity android:name=".ComandaActivity">
+            <intent-filter>
+                <action android:name="com.example.myapplication.magiccakeapp.ComandaActivity"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

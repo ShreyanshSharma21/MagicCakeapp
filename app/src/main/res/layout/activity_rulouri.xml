@@ -1,0 +1,288 @@
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:background="@color/Background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/MyAppbar"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapse_toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="@color/colorPrimary"
+            android:fitsSystemWindows="true">
+
+            <ImageView
+                android:id="@+id/bgheader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rulouricucremadevaniliebig"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="pin" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/MyToolbar1"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="parallax" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <!-- here i start to create the cardviews -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="24dp">
+
+
+
+                                                        <!-- start of card view ONE ingrediente -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/textDark"
+                            android:textSize="24sp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="@string/card_one"/>
+
+     <!-- here i add the checboxes for my ingredients -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pentru crema de cremes"
+                        android:textColor="@color/textMedium"
+                        android:textSize="15sp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textStyle="bold"/>
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        android:text="6 oua"/>
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        android:text="12 linguri zahar "/>
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        android:text="4 plicuri vanilie"/>
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        android:text="1l lapte"/>
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        android:text="10 linguri faina"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pentru crema de vanilie"
+                        android:textColor="@color/textMedium"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textStyle="bold"/>
+                    <CheckBox
+                        android:id="@+id/checkBox6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        android:text="400 ml lapte"/>
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:text="1 plic budinca vanilie "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        />
+                    <CheckBox
+                        android:id="@+id/checkBox8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        android:text="10 linguri zahar"/>
+                    <CheckBox
+                        android:id="@+id/checkBox9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        android:text="2 galbenusuri"/>
+                    <CheckBox
+                        android:id="@+id/checkBox10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorAccentR"
+                        android:buttonTint="@color/colorAccentR"
+                        android:text="200 gr unt"/>
+
+    <!-- here i finish adding the texboxes and checkboxes inside first card - ingrediente - -->
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+                                                        <!-- end of card ONE ingrediente -->
+
+
+
+
+                                                        <!-- start of card TWO mod de preparare -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textDark"
+                    android:textSize="20sp"
+                    android:text="@string/card_two"/>
+
+        <!-- here i start to add the textboxes for instructions inside card two -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pentru rulourile din foietaj"
+                    android:textColor="@color/textMedium"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RulouriFoietaj"
+                    android:textColor="@color/textLight"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pentru crema de vanilie"
+                    android:textColor="@color/textMedium"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RulouricremaVanilie"
+                    android:textColor="@color/textLight"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pentru crema de cremes"
+                    android:textColor="@color/textMedium"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RulouricremaCremes"
+                    android:textColor="@color/textLight"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12sp"/>
+
+
+        <!-- here i finish with thextboxes for instructions inside card two-->
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+                                                        <!-- end of card two mod de preparare -->
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

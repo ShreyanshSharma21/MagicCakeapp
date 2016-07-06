@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+    <ImageView
+        android:id="@+id/iconcake"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon_magiccake"
+        />
+    <Button
+        android:id="@+id/btnbmi"
+        android:text="@string/btnbmi"
+        android:background="@drawable/buttons"
+        android:textColor="@color/textDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnfacts"
+        android:text="Fun dessert facts"
+        android:background="@drawable/buttons"
+        android:textColor="@color/textDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnorder"
+        android:text="Comanda"
+        android:background="@drawable/buttons"
+        android:textColor="@color/textDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnemail"
+        android:background="@drawable/emailicon"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/btnfacebook"
+        android:layout_alignParentEnd="true"
+        android:onClick="process"
+        android:layout_marginEnd="48dp" />
+
+    <Button
+        android:id="@+id/btnfacebook"
+        android:background="@drawable/facebookicon"
+        android:onClick="browserfacebook"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp" />
+    </RelativeLayout>
+
+</LinearLayout>

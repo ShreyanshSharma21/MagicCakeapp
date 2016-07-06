@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">MagicCakeapp</string>
+    <string name="btnretete">Retete</string>
+    <string name="btnsocial">Social</string>
+    <string name="btnbmi">Calculeaza BMI</string>
+    <string name="textcomanda">Torturi si prajituri la comanda, doar in Arad! \n Magic Cake va prezinta o colectie de torturi si prajituri delicioase facute ca la mama acasa cu multa pasiune! </string>
+    <string name="textcomanda2">In cazul in care doriti sa plasati o comanda, tot ce trebuie sa faceti este sa ne contactati telefonic. \n Pentru mai multe retete si detalii accesati pagina noastra de Facebook</string>
+    <string name="textcomanda3"> Program de preluare comenzi de Luni pana Vineri intre orele \n 10 AM - 17 PM</string>
+
+    <!-- here i add the string for activity_amandine -->
+
+    <string name="card_one">Ingrediente</string>
+    <string name="card_two">Mod de preparare</string>
+
+    <!-- here i have the strings for Mod de preparare text -->
+
+    <string name="AmandineBlat"> Separam albusurile de galbenusuri; Galbenusurile le frecam cu ulei pana devin ca o maioneza subtire, albusurile le batem spuma tare tare. Cand spuma e tare, adaugam zaharul, apa, galbenusurile si amestecam cu o spatula de lemn, cu miscari de sus in jos. Punem apoi, in ploaie, faina amestecata cu cacao si praf ul de copt. Aceasta compozitie o turnam intr-o tava unsa si tapetata bine cu faina. Am folosit o tava de 30/40 cm. Dam tava la cupor 30 de minute, pana cand trece testul scobitorii.
+    </string>
+
+    <string name="AmandineCrema"> Zaharul se pune pe foc cu apa cat sa treaca peste zahar si se fierbe pana face bule. Albusurile se bat bine apoi turnam incet siropul format asa cald (totul devine o bezea lucioasa) Se lasa la racit. Untul la temperatura camerei se spumeaza apoi se adauga cele 3 galbenusuri ramase si cacaoa. Adaugam peste unt albusurile batute si racite. La final esenta de rom.
+    </string>
+
+    <string name="AmandineSirop"> Intr-un vas punem pe foc zaharul cu apa. Lasati siropul sa fiarba linistit pana se va topi frumos. Cand zaharul e topit, punem pliculetele de cappucino si romul. Luam siropul de pe foc si il lasam sa se racoreasca.
+    </string>
+
+    <string name="AmandineGlazura"> Am fiert zaharul impreuna cu laptele si cacaoa, la foc mic, pana siropul a inceput sa se lege bine. La sfarsit am adaugat untul. In cuptorul cu microunde am topit serbetul pe care l-am amestecat cu glazura preparata mai sus.
+    </string>
+
+    <string name="Amandine"> Taiem blatul in jumatate si il lasam sa se raceasca complet. Insiropam prima jumatate de blat cu jumatate din cantitatea de sirop de zahar ars,
+        apoi punem crema fina de cacao. Peste crema punem al doilea blat, pe care il insiropam cu restul de sirop.
+        Dam amandina la frigider cam 4 ore.
+Scoatem de la rece, portionam si turnam glazura fondant peste fiecare in parte. Am oprit putina crema cu care am format aveline deasupra amandinelor.
+    </string>
+
+    <!-- end of amandine activity-->
+
+    <!-- start of rulouri activity-->
+    
+    <string name="RulouriFoietaj">Se poate cumpara orice pachet de aluat foietaj. Forma se poate confectiona pe orice unealta cu forma cilindrica pe care le ungem cu unt.Luati foaia de aluat si intindeti-o (sa aiba cam 4 mm grosime). Taiati-o in fasii de 2 cm latime. Incepeti sa infasurati fasia de aluat
+pe o forma, de la varf spre baza, avand grija ca straturile sa se suprapuna usor.\n
+Cand ati terminat de infasurat aluatul, asezati formele pe platouri sau un tocator mai mare, acoperiti-le cu un prosop umed si bagati-le in
+frigider pentru cel putin 30 de minute (dupa cum stiti, aluatul foietaj trebuie sa fie rece cand il bagam in cuptor si, de asemenea, nu trebuie
+sa fie uscat, pentru a se umfla cum trebuie.\n
+        Scoateti rulourile din frigider, asezati-le intr-o tava tapetata cu hartie de copt, Coaceti-le circa 20 de minute sau pana cand foietajul,
+frumos umflat, a prins un pic de culoare. Scoateti-le din cuptor si lasati-le sa se raceasca putin apoi le putem scoate (prin impingere) de pe forme.
+    </string>
+    
+    <string name="RulouricremaVanilie">Punem laptele, zaharul si praful de budinca intr-un vas la foc mic si amestecam continuu sa nu se lipeasca pana cand incepe 
+sa se ingroasa compozitia. Dam deoparte si cat este calduta inca adaugam galbenusurile pe rand dupa fiecare amestecand energic 
+fiindca altfel riscam sa le transformam in omleta. Lasam deoparte sa se racoreasca, amestecand din cand in cand ca sa nu formeze 
+crusta.Apoi adaugam untul pe rand amestecand continuu.Cu aceasta crema se vor umple rulourile racite.
+    </string>
+    
+    <string name="RulouricremaCremes">Am frecat spuma galbenusurile cu zaharul si vanilia,am adaugat faina,apoi laptele .Am pus totul la foc mic si am amestecat pana ce
+ crema s-a ingrosat ca o budinca.Intre timp am batut spuma albusurile cu un varf de cutit de sare si am turnat peste crema de galbenusuri
+ care inca o mai aveam pe foc si am amestecat pana ce s-a incorporat albusurile in crema.
+    </string>
+
+    <!-- end of rulouri activity -->
+    
+    <!-- start of albacazapada activity -->
+    <string name="AlbacazapadaPreparareFoi">Se amesteca bine toate ingredientele pentru foi si se framanta. Se imparte aluatul in trei si se intind pe rand, trei foi care se
+        coc pe fundul tavii.Am folosit o tava de 25/35cm.
+    </string>
+
+    <string name="AlbacazapadaPreparareCrema">Se amesteca faina cu laptele si zaharul vanilat si se fierbe amestecand continuu pana se ingroase, am adaugat zeama de la o lamaie.apoi se lasa la racit.
+Untul se mixeaza bine cu zaharul pudra, apoi se adauga crema si se amesteca bine.
+Se umplu foile cu crema, se dau la frigider cateva ore, apoi se pudreaza cu zahar.
+    </string>
+
+    <!-- end of albacazapada activity -->
+
+    <!-- start of tortdelamaiecubezea activity -->
+    
+    <string name="TortdelamaiecubezeaBlat">Am separat ouale,am batut bine albusurile cu sarea,am adaugat zaharul,apa,apoi galbenusurile.
+        La sfarsit am pus faina si praful de copt .Am folosit o tava cu diametrul de 26cm.Dupa racire am taiat blatul in 3.
+    </string>
+    
+    <string name="TortdelamaiecubezeaCrema">Amestecam bine ouale cu zaharul. Punem vasul la bain-marie si batem cu telul aproximativ 20 minute pana capata o consistenta cremoasa. Lasam la racit pana ajunge la temperatura camerei.
+Dupa ce s-a racit adaugam gelatina (care am pus-o la hidratat in 50 ml suc de lamaie. Se poate si apa, apoi incalzita usor)
+Frisca se bate bine apoi treptat adaugam si crema de oua peste,iar la sfarsit esenta de lamaie.
+    </string>
+    
+    <string name="TortdelamaiecubezeaBezeaua">250 gr.zahar se pune pe foc cu apa cat sa treaca peste zahar si se fierbe pana face bule.
+3 albusuri se bat bine peste care turnam incet siropul format asa cald.(totul devine o bezea lucioasa)Galbenusurile ramase se pot folosi suplimentar la crema pregatita la bain marie.
+    </string>
+    
+    <string name="TortdelamaiecubezeaMontare">Dintre cele 3 foi de blat am pus-o deoparte pe cea din mijloc (cea care nu are crusta) – avem nevoie de ea pentru a forma cupola tortului.Am asezat pe suport prima foaie de pandispan (cea care a fost la fund).
+        Am pus-o cu partea rumena in jos si am insiropat-o bine cu sirop facut din dulceata din coji de lamaie,apa si zahar.Deasupra am pus o parte din crema si am nivelat-o.A urmat a doua foaie de blat(cea care a fost la suprafata si are si ea crusta rumena),
+        pe care am insiropat-o , apoi restul de crema. Cu spatula i-am dat forma bombata de cupola.Ultima foaie de pandispan este cea pusa deoparte, „miezul”, cea fara cruste coapte. Iata de ce am avut nevoie de ea acum: pentru ca este cea mai elastica si pot sa o curbez usor peste muntele de crema.
+        Am apasat-o usor cu mainile ca sa ia forma de semisfera.
+Pana am batut bezeaua am pus prajitura la rece.
+Dupa aceea am imbracat cupola in bezea apoi m-am jucat putin cu pistolul cu gaz pt a o face mai aspectuoasa
+    </string>
+        <!-- end of Tortdelamaiecubezea activity -->
+    
+        <!-- start of tortdelamaiecucremamascarpone activity -->
+    <string name="TortdelamaiecucremamascarponeBlat">Se bat albusurile cu zaharul. Galbenusurile se amesteca cu praful de copt, se adauga o lingurita otet si se amesteca bine. Se toarna galbenusurile peste albusurile batute si se amesteca. Se adauga faina, se pune in tava si se coace la foc potrivit.Dupa racire am insiopat blatul cu sirop facut din zahar,
+        coji la lamaie si esenta de lamaie.Am insiropat bine de tot blatul.
+    </string>
+
+    <string name="TortdelamaiecucremamascarponeCrema">Crema mascarpone o amestecam bine cu zaharul praf. Frisca lichida o batem bine. Punem cele doua plicuri de gelatina granulata la hidratat in sucul de lamaie pentru 10 minute. Apoi am incalzit-o in cuptorul cu microunde 10 -15secunde..atentie nu se fierbe doar se incalzeste,apoi am adaugat-o in frisca.
+        La sfarsit am pus si crema de mascarpone peste frisca si am amestecat bine
+    </string>
+
+    <string name="TortdelamaiecucremamascarponeJeleu">Amestecam budinca, zaharul si sucul si le punem la fiert pe foc ca si o budinca normala.
+    </string>
+        <!-- end of tortdelamaiecucremamascarpone activity -->
+
+    <!-- start of pogacelecujumari activity -->
+    <string name="Pogacelecujumari">Drojdia se dizolva in putin lapte, zahar si faina si se lasa sa creasca. Se adauga apoi restul de lapte,
+galbenusurile si faina si se lasa la dospit o jumatate de ora.
+Jumarile se dau prin masina de tocat, iar apoi se amesteca cu untura, sare si piper.
+Peste coca intinsa cu sucitorul se asterne un strat de jumari amestecate cu untura,
+dupa care se impatureste si se lasa 10 min sa se odihneasca,apoi repetam de inca 2 ori aceasta operatie.
+Dupa aceea, se intinde din nou o foaie cu grosimea de cca. 1cm din care se decupeaza, cu un pahar bucati
+peste care se presara chimen si se ung cu ou. Se aseaza in tavi si se coc la foc potrivit.
+    </string>
+    <!-- end of pogacelecujumari activity -->
+    
+    
+    
+    
+</resources>

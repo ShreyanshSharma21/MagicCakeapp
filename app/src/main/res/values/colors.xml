@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- adding the new color line -->
+
+    <color name="colorPrimaryDark">#f44336</color>
+    <color name="colorPrimary">#ff5353</color>
+    <color name="colorAccentB">#64ffda</color>
+    <color name="colorAccentR">#ff1744</color>
+    <color name="textDark">#263238</color>
+    <color name="textMedium">#37474f</color>
+    <color name="textLight">#546e7a</color>
+    <color name="Background">#fffde7</color>
+    <color name="White">#ffffff</color>
+    
+    <!-- adding the colors for changing Facts background -->
+
+    <color name="red">#ffebee</color>
+    <color name="pink">#fce4ec</color>
+    <color name="purple">#f3e5f5</color>
+    <color name="deeppurple">#ede7f6</color>
+    <color name="indigo">#e8eaf6</color>
+    <color name="blue">#e3f2fd</color>
+    <color name="lightblue">#e1f5fe</color>
+    <color name="cyan">#e0f7fa</color>
+    <color name="teal">#e0f2f1</color>
+    <color name="green">#e8f5e9</color>
+    <color name="lightgreen">#f1f8e9</color>
+    <color name="lime">#f9fbe7</color>
+    <color name="amber">#fff8e1</color>
+    <color name="orange">#fff3e0</color>
+    <color name="deeporange">#fbe9e7</color>
+    <color name="brown">#efebe9</color>
+    <color name="grey">#fafafa</color>
+    <color name="bluegrey">#eceff1</color>
+
+    <!-- end of colors for Facts background-->
+
+</resources>
